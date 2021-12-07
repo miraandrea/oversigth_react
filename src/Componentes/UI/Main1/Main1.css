@@ -1,0 +1,29 @@
+.borde{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5%;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    font-size: 55px;
+}
+
+input{
+    border-radius: 18px;
+    border: solid 5px #7777;
+    font-size: 34px;
+    margin: 10px;
+
+}
+
+.boton{
+    border-radius: 6px;
+    font-size: 34px ;
+    background-color: rgb(41, 140, 197);
+    border: none;
+    margin: 20px;
+    width: 100%;
+}
