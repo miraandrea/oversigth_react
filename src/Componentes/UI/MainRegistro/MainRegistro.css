@@ -1,0 +1,48 @@
+.h1{
+    color:rgb(12, 12, 12);
+}
+.nombre_apellido{
+    display: flex;
+
+}
+.campos{
+    display: flex;
+    flex-direction: column;
+    width: 65vw;
+}
+select{
+    border-radius: 18px;
+    border: solid 6px #7777;
+    font-size: 34px;
+    margin: 10px;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5%;
+}
+.boton2{
+    border-radius: 6px;
+    font-size: 34px ;
+    background-color: rgb(41, 140, 197);
+    border: none;
+    margin: 20px;
+    
+}
+.boton2 {
+    color: rgba(255, 255, 255, 0.9) !important;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0.5em 1.2em;
+    background: #318aac;
+    border: 2px solid;
+    border-color: #318aac;
+    position: relative;
+}
+.boton2:hover {
+    color: rgba(255, 255, 255, 1) !important;
+    box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+    transition: all 0.2s ease;
+}

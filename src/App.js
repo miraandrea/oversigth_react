@@ -8,6 +8,7 @@ import {
 
 import { Home } from './Componentes/Pege/Home/Home';
 import { Administrador } from './Componentes/Pege/Administrador/Administrador';
+import { AdministradorRegistro } from './Componentes/Pege/AdministradorRegistro/AdministradorRegistro';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/administrador" element={<Administrador />} />
+        <Route path="/registrar" element={<AdministradorRegistro />} />
       </Routes>
     </BrowserRouter>
   )
