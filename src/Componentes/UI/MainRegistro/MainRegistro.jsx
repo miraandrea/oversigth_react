@@ -18,7 +18,7 @@ export const MainRegistro = () => {
 
                 <select >
                     <option value="1">Rol</option>
-                    <option value="1">Dosente</option>
+                    <option value="1">Docente</option>
                     <option value="2">Estudiante</option>
 
                 </select>

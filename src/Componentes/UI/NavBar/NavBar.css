@@ -1,7 +1,6 @@
 .btnPrincipal{
   display:flex;
   margin-top: -27vh;
-  /* gap: 10px; */
   width: 15vw;
   justify-content: space-evenly;
 }
