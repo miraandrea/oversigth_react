@@ -36,11 +36,11 @@ export const Tabla1 = () =>{
         {documento: 1005207265, nombre1: 'paola', nombre2: 'andrea', apellido1: 'mira', apellido2: 'orozco', grado: '6.B'},
     ]
     return(
-        <div className="">
+        <div className="tableShow">
             <MaterialTable
                 columns={columnas}
                 data={data}
-                tile='OverSigh'
+                tile='OverSight'
                 actions={[
                     {
                         icon: 'edit',
