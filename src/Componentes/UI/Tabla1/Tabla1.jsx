@@ -1,4 +1,5 @@
 import React from "react";
+import "./Tabla1.css"
 import MaterialTable from "material-table";
 
 export const Tabla1 = () =>{
@@ -35,11 +36,12 @@ export const Tabla1 = () =>{
         {documento: 1005207265, nombre1: 'paola', nombre2: 'andrea', apellido1: 'mira', apellido2: 'orozco', grado: '6.B'},
     ]
     return(
-        <div className="">
+        <div className="tableShow">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
             <MaterialTable
                 columns={columnas}
                 data={data}
-                tile='OverSigh'
+                title="Oversight"
                 actions={[
                     {
                         icon: 'edit',
