@@ -1,4 +1,5 @@
 import React from "react";
+import "./Tabla1.css"
 import MaterialTable from "material-table";
 
 export const Tabla1 = () =>{
