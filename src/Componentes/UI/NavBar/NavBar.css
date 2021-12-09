@@ -1,8 +1,9 @@
 .btnPrincipal{
   display:flex;
   margin-top: -27vh;
+  /* gap: 10px; */
+  width: 15vw;
   justify-content: space-evenly;
-
 }
 .menu{
   display: flex;
@@ -10,7 +11,7 @@
   justify-content: flex-end;
 }
 .btnRegistrar{
-  width: 8vw;
+  width: 12vw;
   border-radius: 10px;
   border: 2px solid gray;
   height: 4vw;
@@ -18,7 +19,7 @@
 
 }
 .btnCerrar{
-  width: 8vw;
+  width: 12vw;
   border-radius: 10px;
   border: 2px solid gray;
   height: 4vw;

@@ -37,10 +37,11 @@ export const Tabla1 = () =>{
     ]
     return(
         <div className="tableShow">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
             <MaterialTable
                 columns={columnas}
                 data={data}
-                tile='OverSight'
+                title="Oversight"
                 actions={[
                     {
                         icon: 'edit',
